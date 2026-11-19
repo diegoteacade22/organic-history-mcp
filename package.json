@@ -1,0 +1,31 @@
+{
+  "name": "organic-history-mcp",
+  "version": "0.1.0",
+  "description": "USDA organic certification history for AI agents: has this supplier ever lost certification, when, and to what status.",
+  "type": "module",
+  "bin": {
+    "organic-history-mcp": "./index.js"
+  },
+  "main": "./index.js",
+  "files": [
+    "index.js",
+    "data/organic-history.json.gz",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "usda",
+    "organic",
+    "certification",
+    "supply-chain",
+    "compliance",
+    "agents"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
